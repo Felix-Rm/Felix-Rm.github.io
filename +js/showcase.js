@@ -1,6 +1,6 @@
 var elements = {
   'Kessel Rush - Game': {
-    img: '/_img/Kessel Rush.png',
+    img: '/+img/Kessel Rush.png',
     icon1: ['forward', 'play'],
     icon2: ['file_download', 'download'],
     href1: 'https://felix-rm.github.io/Kessel-Rush/KR_MENU/',
@@ -8,7 +8,7 @@ var elements = {
   },
 
   'Chess - Game': {
-    img: '/_img/Chess.png',
+    img: '/+img/Chess.png',
     icon1: ['forward', 'play'],
     icon2: ['file_download', 'download'],
     href1: 'https://felix-rm.github.io/Chess/',
@@ -16,7 +16,7 @@ var elements = {
   },
 
   'Calculator': {
-    img: '/_img/Calculator.png',
+    img: '/+img/Calculator.png',
     icon1: ['fullscreen', 'project in action'],
     icon2: ['file_download', 'download'],
     href1: 'https://felix-rm.github.io/Small-Projects/SC02%20Calculator/',
@@ -24,7 +24,7 @@ var elements = {
   },
 
   'Fireworks': {
-    img: '/_img/Fireworks.png',
+    img: '/+img/Fireworks.png',
     icon1: ['fullscreen', 'project in action'],
     icon2: ['file_download', 'download'],
     href1: 'https://felix-rm.github.io/Small-Projects/SC03%20Fireworks/',
@@ -32,7 +32,7 @@ var elements = {
   },
 
   'Moving Text': {
-    img: '/_img/Moving Text.png',
+    img: '/+img/Moving Text.png',
     icon1: ['fullscreen', 'project in action'],
     icon2: ['file_download', 'download'],
     href1: 'https://felix-rm.github.io/Small-Projects/SC01%20Moving%20Text/',
