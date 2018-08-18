@@ -1,0 +1,73 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background: #222;
+  font-family: 'Raleway', sans-serif;
+  color: #4286f4;
+}
+
+.project center {
+  width: 100%;
+  border-top: 2px solid #4286f4;
+}
+
+.project table {
+  width: 70%;
+  margin: 25px;
+}
+
+.project td {
+  text-align: center;
+  background: #fff;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.project a {
+  color: #fff;
+  font-size: inherit;
+  border: none;
+  border-radius: 2px;
+}
+
+.project img {
+  width: 95%;
+}
+
+.likebutton {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.likebutton:active {
+  background: #999
+}
+
+.likebutton:active td {
+  background: #999
+}
+
+.likebutton table {
+  margin: 0px 10px;
+  padding: 0px;
+  width: 80%;
+  height: 100%;
+}
+
+.likebutton img {
+  width: 20px;
+  height: 20px;
+  padding-top: 4px;
+  border-radius: 20px;
+}
+
+.likebutton td {
+  padding: 0px;
+  margin: 0px;
+}

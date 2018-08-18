@@ -1,0 +1,153 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background: #222;
+  font-family: 'Raleway', sans-serif;
+  color: #4286f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+center {
+  width: 100%;
+  border-top: 2px solid #4286f4;
+}
+
+table {
+  width: 70%;
+  margin: 15px;
+}
+
+.write td {
+  width: 50%;
+}
+
+.write input {
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  color: inherit;
+}
+
+.write textarea {
+  color: inherit;
+  margin: 15px 0px 15px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 2px;
+  border: none;
+}
+
+.write a {
+  color: inherit;
+  background: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+.Comment_box {
+  margin-top: 10px;
+  width: 100%;
+  align-content: center;
+  align-content: left;
+  box-sizing: border-box;
+}
+
+.Comment_box table {
+  width: 70%;
+}
+
+.Comment_box tr {
+  width: 100%;
+}
+
+.Comment_box td {
+  padding: 2px 0px 2px 0px;
+  background: #fff;
+  border-radius: 2px;
+  border: none;
+}
+
+.Comment_box img {
+  width: 20px;
+  height: 20px;
+}
+
+.Comment_box p {
+  background: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 0px;
+  border: none;
+}
+
+#ISSUE {
+  color: #f66;
+  text-align: center;
+  width: 9%;
+}
+
+#IDEA {
+  color: #6f6;
+  text-align: center;
+  width: 9%;
+}
+
+#name {
+  color: inherit;
+  text-align: center;
+  width: 45%;
+}
+
+#date {
+  color: inherit;
+  text-align: center;
+  width: 35%;
+}
+
+.likebutton {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.likebutton:active {
+  background: #999
+}
+
+.likebutton:active td {
+  background: #999
+}
+
+.likebutton table {
+  margin: 0px 10px;
+  padding: 0px;
+  width: 80%;
+  height: 100%;
+}
+
+.likebutton img {
+  padding-top: 4px;
+  border-radius: 20px;
+}
+
+.likebutton td {
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,49 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background: #222;
+  font-family: 'Raleway', sans-serif;
+  color: #4286f4;
+}
+
+.showcase center {
+  width: 100%;
+  border-top: 2px solid #4286f4;
+}
+
+.showcase table {
+  min-width: 1100px;
+  margin: 25px 100px;
+}
+
+.showcase img {
+  height: 500px;
+  width: auto;
+  margin: 10px;
+}
+
+.showcase td {
+  background: #fff;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 2px;
+  border: none;
+  padding: 5px 10px;
+  color: inherit;
+}
+
+.showcase .image center {
+  background: #333;
+  border: none;
+}
+
+.showcase .play {
+  width: 30px;
+}
+
+.showcase .download {
+  /* background: #6f6; */
+  /* color: #fff; */
+  width: 30px;
+}

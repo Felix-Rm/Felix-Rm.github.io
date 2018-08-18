@@ -1,0 +1,123 @@
+a, button {
+  outline: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav * {
+  z-index: 4;
+  margin: 0;
+  padding: 0;
+}
+
+.nav h1 {
+  color: #fff;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.nav td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav table {
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav nav menuitem {
+  position: relative;
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav nav menuitem>menu {
+  position: absolute;
+  pointer-events: none;
+}
+
+.nav nav>menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav nav>menu>menuitem {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.nav menu menuitem a {
+  white-space: nowrap;
+  display: block;
+}
+
+.nav menuitem:hover>menu {
+  pointer-events: initial;
+}
+
+.nav menuitem:hover>menu>menuitem, menu:hover>menuitem {
+  opacity: 1;
+}
+
+.nav nav>menu>menuitem menuitem menu {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  top: 0;
+  right: 0;
+}
+
+.nav nav {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 7px;
+}
+
+.nav nav a {
+  text-decoration: none;
+  background: #4286f4;
+  color: #FFF;
+  width: 140px;
+  margin: 0px;
+  margin-right: 5px;
+  text-align: center;
+  padding: 5px;
+  transition: background 0.5s, color 1s
+}
+
+.nav nav a:hover {
+  background: #3671d1;
+}
+
+/*Arrows*/
+
+/*nav>menu>menuitem>a+menu:after {
+  content: '';
+  position: absolute;
+  border: 10px solid transparent;
+  border-top: 10px solid white;
+  left: 8px;
+  top: -15%;
+}*/
+
+/*animations for dropdown*/
+
+.nav nav>menu>menuitem>menu>menuitem {
+  -webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+  transition: opacity 0.6s, -webkit-transform 0.6s;
+  transition: transform 0.6s, opacity 0.6s;
+  transition: transform 0.6s, opacity 0.6s, -webkit-transform 0.6s;
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+  opacity: 0;
+}
+
+.nav nav>menu>menuitem:hover>menu>menuitem, nav>menu>menuitem.hover>menu>menuitem {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+}

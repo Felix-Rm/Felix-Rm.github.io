@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <title>Felix's Website</title>
+
+  <link rel="shortcut icon" href="/icon.png" />
+  <link rel="stylesheet" href="/_css/reference.css">
+  <link rel="stylesheet" href="/_css/menu.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body onload="w3.includeHTML();">
+  <div w3-include-html="/nav_template.html" style="z-index:1"></div>
+
+  <center class="reference">
+    <div>
+      <h1>CommentSys()</h1>
+      <article>
+        <h3>constructor()</h3>
+        <article>
+          <p>The constructor takes 3 arguments:</p>
+          <article>
+            <h4>Firebase Reference</h4>
+            <p>The comments will be saved there.</p>
+          </article>
+          <article>
+            <h4>Function</h4>
+            <p>This function will be called for every comment found in the database.<br>The function is given a comment object and it should create the necessary HTML for displaying the comment</p>
+          </article>
+          <article>
+            <h4>Date format</h4>
+            <p>A string specefying the date format. Current options are 'de' or 'uk'.</p>
+          </article>
+        </article>
+      </article>
+
+      <article>
+        <h3>newComment()</h3>
+        <article>
+          <p>This function takes 2 arguments:</p>
+          <article>
+            <h4>Comment object</h4>
+            <p>The comments will be saved there.</p>
+          </article>
+          <article>
+            <h4>Function</h4>
+            <p>This function will be called if one of the 'comment object' propertys is an empty string.</p>
+          </article>
+          <p>This function will save the given comment in the database.</p>
+        </article>
+      </article>
+    </div>
+  </center>
+</body>
+
+</html>
